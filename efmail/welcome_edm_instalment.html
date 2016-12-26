@@ -1,0 +1,795 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			#bodyCell{padding:0 20px 100px;}
+			#templateContainer{width:698px;}
+			#templateGutter{height:10px;border:none;}
+			#templateIntroduce,#templateQrcodes{background: #eff1f1;color:#506c81;border:1px solid #dddddd;}
+			hr{background:#bbbbbb;border:none;height:1px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#DEE0E2;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+				/*@editable*/ /*border-top:4px solid #BBBBBB;*/
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border:1px solid #BBBBBB;
+				border-top: none;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color:#202020 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color:#404040 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color:#606060 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color:#808080 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #003c60;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				/*max-width:698px;*/
+				width:100%;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:1px solid #BBBBBB;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:13px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:30px;
+				padding-bottom:20px;
+				padding-left:30px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Column Styles ========== */
+
+			.templateColumnContainer{width:200px;}
+
+			/**
+			* @tab Columns
+			* @section column style
+			* @tip Set the background color and borders for your email's column area.
+			*/
+			#templateColumns{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+			*/
+			.leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Columns
+			* @section center column text
+			* @tip Set the styling for your email's center column content text. Choose a size and color that is easy to read.
+			*/
+			.centerColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section center column link
+			* @tip Set the styling for your email's center column content links. Choose a color that helps them stand out from your text.
+			*/
+			.centerColumnContent a:link, .centerColumnContent a:visited, /* Yahoo! Mail Override */ .centerColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+			*/
+			.rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.leftColumnContent img, .rightColumnContent img{
+				display:inline;
+				height:auto;
+				max-width:260px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:698px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ /*max-width:698px !important;*/
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Column Styles ======== */
+
+				.templateColumnContainer{display:block !important; width:100% !important;}
+
+				/**
+				* @tab Mobile Styles
+				* @section column image
+				* @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				.columnImage{
+					height:auto !important;
+					/*@editable*/ max-width:480px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section left column text
+				* @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.leftColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section center column text
+				* @tip Make the center column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.centerColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section right column text
+				* @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.rightColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell">
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="http://cnc.ef-cdn.com/_imgs/Salesforce/WelcomeEmail/201701/tr-logo.jpg?201601" style="width:100%;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+							<tr id="templateGutter">
+							</tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+										<tr>
+											<td valign="top" class="headerContent">
+                                            	<img src="http://cnc.ef-cdn.com/_imgs/Salesforce/WelcomeEmail/201701/tr-banner.jpg" style="width:100%" id="bodyImage" mc:label="body_image" mc:edit="body_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+										</tr>
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+                                                亲爱的XXX / Dear XXX，
+												<br /><br />
+												感谢您购买EF英孚英语的课程。从此，您将与数万名希望通过自己的拼搏奋斗提高职业发展或生活品质的英孚学员一起踏上英语学习之旅。恭喜您，您已迈出追求人生目标的又一步!
+												<br /><br />
+												Thank you for purchasing our EF English course. You are about to embark on a grand journey of English study with hundreds of thousands of fellow EF students who are hoping to further their professional development or better improve their quality of life through diligence and hard work. Congratulations! You are now one step closer to achieving your life goals.
+												<br /><br />
+												我们知道语言学习并非一蹴而就，需要您长期的坚持和努力。不过别担心，我们精心设计的SMART15学习系统，旨在为您创造既愉快又高效的学习体验；我们的培训师、服务顾问和课程顾问也将努力协助您走好学习过程中的每一步。如果您全身心地跟随我们的系统学习，我们坚信您的学习会取得成功。
+												<br /><br />
+												We know that learning another language cannot be accomplished in one go. It requires your determination and persistence. To support you on your journey, our SMART15 learning system is specifically designed to bring you a fun and engaging learning experience; our teachers, service consultants and course consultants are here to assist you every step of the way. We have no doubt that you will make progress with your English learning if you trust and adhere to our methodology.
+												<br /><br />
+												为了协助您顺利展开这段学习之旅，我们为您定制了一份入门工具套餐：
+												<br /><br />
+												Here, we have tailored for you a toolkit to ensure a smooth start to your journey.
+                                            </td>
+                                        </tr>
+										<tr>
+											<td valign="top" class="bodyContent" mc:edit="body_content" style="padding-top:0;">
+												<table border="0" id="templateIntroduce" cellpadding="20" cellspacing="0" width="100%">
+													<tr>
+														<td valign="top" class="bodyContent" style="color: #506c81;font-size: 12px;">
+															首先，在培训中心，我们为您准备了一堂免费的入门指导课。您的服务顾问会尽快与您取得联系，为您安排合适的时间。在此之前，您可以参看右边的入门指导课视频来初步了解我们的学习方式。
+															<br /><br />
+															First of all, we welcome you to join our free orientation classes at your school. Your appointed service consultant will contact you soon and schedule a suitable time for this class with you. Before joining the orientation class, you might find it helpful to watch the video on the right
+														</td>
+														<td valign="top" style="width: 231px;">
+															<img src="http://cnc.ef-cdn.com/_imgs/Salesforce/WelcomeEmail/201701/tr-right-1.jpg" style="max-width:231px;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image" />
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td valign="top" class="bodyContent" mc:edit="body_content" style="padding-top:0;">
+												<table border="0" id="templateQrcodes" cellpadding="20" cellspacing="0" width="100%">
+													<tr>
+														<td valign="top" class="bodyContent" style="color: #506c81;font-size: 12px;">
+															此外，我们邀请您关注所在中心的微信服务号，下载相关手机/平板电脑应用，随时随地享受学习的便利。
+															<br /></br />
+															We’d also like to invite you to follow your center’s Wechat service account, and download the necessary phone and tablet applications to enjoy the convenience of learning with us.
+														</td>
+														<td valign="top" style="width: 220px; text-align: center;">
+															<p style="margin-bottom: 0;">中心微信服务号</p>
+															<hr>
+															<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td valign="top">
+																		<img src="http://cnc.ef-cdn.com/_imgs/Salesforce/WelcomeEmail/201701/tr-wechat-1.jpg" style="max-width: 110px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image"/>
+																	</td>
+																	<td valign="top" style="text-align: left; font-size: 10px;">
+																		<ul style="margin:0;padding:0 0 0 30px;color: #505050;">
+																			<li>预习材料</li>
+																			<li>中心活动预告</li>
+																			<li>学习小贴士</li>
+																			<li>Preview materials</li> 
+																			<li>Center event announcements</li>
+																			<li>Learning tips</li>
+																		</ul>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td valign="top" colspan="2" style="color:#505050;">
+															<table border="0" cellpadding="10" cellspacing="0" width="100%">
+																<tr align="center">
+																	<td colspan="2" style="padding-top:0;">
+																		<p style="margin-bottom: 0;">我的英孚 My EF Center</p>
+																		<hr />
+																	</td>
+																	<td colspan="2" style="padding-top:0;">
+																		<p style="margin-bottom: 0;">EF Smart English</p>
+																		<hr />
+																	</td>
+																</tr>
+																<tr>
+																	<td valign="top" style="padding-top:0;">
+																		<img src="http://cnc.ef-cdn.com/_imgs/Salesforce/WelcomeEmail/201701/tr-center-ios.jpg" style="max-width: 130px;border: 1px solid #BBBBBB;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image"/>
+																	</td>
+																	<td valign="top" style="padding-top:0;">
+																		<img src="http://cnc.ef-cdn.com/_imgs/Salesforce/WelcomeEmail/201701/tr-center-android.jpg" style="max-width: 130px;border: 1px solid #BBBBBB;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image"/>
+																	</td>
+																	<td valign="top" style="padding-top:0;">
+																		<img src="http://cnc.ef-cdn.com/_imgs/Salesforce/WelcomeEmail/201701/tr-smart-pad.jpg" style="max-width: 130px;border: 1px solid #BBBBBB;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image"/>
+																	</td>
+																	<td valign="top" style="padding-top:0;">
+																		<img src="http://cnc.ef-cdn.com/_imgs/Salesforce/WelcomeEmail/201701/tr-smart-android.jpg" style="max-width: 130px;border: 1px solid #BBBBBB;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image"/>
+																	</td>
+																</tr>
+																<tr>
+																	<td valign="top" colspan="2" style="padding-top:0;padding-bottom:0;">
+																		<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+																			<tr style="background:#9a9a9a;color:#ffffff; font-size: 11px;">
+																				<td align="center" width="50%">iOS</td>
+																				<td align="center" width="50%">Android</td>
+																			</tr>
+																			<tr>
+																				<td colspan="2" align="center" style="font-size: 11px; line-height:1.3; padding-top: 5px;">
+																					管理课程，查看反馈，自助签到
+																					<br />
+																					Course management, Feedback review, Self-check-in
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																	<td valign="top" colspan="2" style="padding-top:0;padding-bottom:0;">
+																		<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+																			<tr style="background:#9a9a9a;color:#ffffff;font-size: 11px;">
+																				<td align="center" width="50%">PAD iOS</td>
+																				<td align="center" width="50%">PAD Android</td>
+																			</tr>
+																			<td colspan="2" align="center" style="font-size: 11px; line-height:1.3; padding-top: 5px;">
+																				碎片时间，随处可学
+																				<br />
+																				Bite-sized study, wherever you like
+																			</td>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td valign="top" class="bodyContent" mc:edit="body_content" style="padding-top:0;line-height: 1.3;">
+                                            鉴于您选择向第三方（如银行或其他金融机构）贷款的方式向EF支付培训费，我们希望您已完全理解您与第三方签署相关合约中的还款义务。如您未按约履行还款义务将直接影响您的个人征信。出于对您的学习和个人征信的认真对待，我们在此特别提醒您，您的这一支付方案系您与EF之外的第三方直接签署，如您对此存在任何疑问，请及时与该第三方联系。
+                                            <br /><br />
+                                            As you have chosen to pay for your course through a third party bank or financial institution, we want to make sure that you fully understand your obligations to pay according to your signed agreements and that failure to do so may result in a negative impact on your personal credit rating.  We take your learning and credit seriously.   So we want to remind you that as this payment plan is directly between you and a company other than EF, that you should contact your payment provider anytime with questions.
+											<br /><br />
+                                            如果您现在或未来在学习过程中有任何问题不能在英孚培训中心得到解决，欢迎致电400-181-0011，我们的客服代表将竭诚为你服务。
+											<br /><br />
+											还等什么？现在就开启您的EF之旅吧！点击这里进入在线学习平台。
+											<br /><br />
+											If there are any questions about your learning that cannot be answered at your EF center, please call 400-181-0011. Our customer service representatives will do their best to answer your questions or address any concerns.
+											<br /><br />
+											What are you waiting for? Let your EF journey begin now! Click here to enter the online learning platform.
+											</td>
+										</tr>
+										<tr>
+											<td valign="top" class="bodyContent" mc:edit="body_content">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                	<tr>
+														<td valign="top" style="width: 130px;">
+															<img src="http://cnc.ef-cdn.com/_imgs/Salesforce/WelcomeEmail/201701/tr-bottom-icon.jpg" style="max-width:160px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
+														</td>
+														<td valign="bottom" class="footerContent" style="padding-bottom:0;">
+															<strong>付安娜</strong>
+															<br />
+															<strong>Annabelle Vultee</strong>
+															<br /><br />
+															英孚英语培训中心COO 
+															<br />
+															COO，EF English Centers
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
